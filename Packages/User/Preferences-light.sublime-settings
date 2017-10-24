@@ -136,11 +136,11 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "MonacoBSemi",
+	"font_face": "Fira Code",
+  "font_size": 12.5,
 	"font_options":
 	[
 	],
-	"font_size": 12,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -173,7 +173,7 @@
 	"line_numbers": true,
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
-	"margin": 2,
+	"margin": 0,
 	"match_brackets": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": true,

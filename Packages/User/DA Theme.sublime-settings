@@ -1,893 +1,412 @@
 {
-	"accent_color": "#5882f5",
-	"animation_interpolation": "smoothstep",
-	"animation_speed": 4.5,
-	"auto_complete_background_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$view_background_color",
-			0.05
-		],
-		[
-			"shade",
-			"$view_background_color",
-			0.05
-		]
-	],
-	"auto_complete_label_foreground_color":
-	[
-		"opacity",
-		"#808080",
-		0.45
-	],
-	"auto_complete_label_foreground_color_on_match": "$label_foreground_color_on_match",
-	"auto_complete_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
-	"auto_complete_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
-	"auto_complete_row_background_color": "",
-	"auto_complete_row_background_color_on_hover": "",
-	"auto_complete_row_background_color_on_selected":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"auto_complete_row_padding":
-	[
-		9,
-		6
-	],
-	"auto_complete_scrollbar_background_color": "$auto_complete_background_color",
-	"auto_complete_scrollbar_margin": "$scrollbar_margin",
-	"background_color": "$scheme_background_color",
-	"border_radius": 2,
-	"button_background_color":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"button_background_color_on_hover":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"button_background_color_on_pressed":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.025
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.025
-		]
-	],
-	"button_border_color": "",
-	"button_border_color_on_hover": "$button_border_color",
-	"button_border_color_on_pressed": "$button_border_color",
-	"button_border_radius": "$border_radius",
-	"button_border_width": 0,
-	"button_font_size": "$font_size",
-	"button_font_style": "$font_style",
-	"button_foreground_color": "$label_foreground_color",
-	"button_foreground_color_on_hover": "$label_foreground_color_on_hover",
-	"button_min_size":
-	[
-		80,
-		0
-	],
-	"button_padding": 8,
-	"button_text_shadow_color": "$text_shadow_color",
-	"button_text_shadow_offset": "$text_shadow_offset",
-	"console_panel_padding": "$panel_padding",
-	"console_panel_scrollbar_margin":
-	[
-		4,
-		0,
-		0,
-		0
-	],
-	"dialog_background_color": "$panel_background_color",
-	"dialog_padding": "$panel_padding",
-	"disable_overlay_top_radius": true,
-	"enable_title_bar_styling": true,
-	"find_in_files_panel_padding":
-	[
-		6,
-		12,
-		12,
-		11
-	],
-	"find_n_replace_panel_padding":
-	[
-		6,
-		12,
-		6,
-		11
-	],
-	"fold_button_icon_color": "$icon_color",
-	"fold_button_icon_color_on_hover": "$icon_color_on_hover",
-	"fold_button_icon_opacity": "$icon_opacity",
-	"fold_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"font_face": "Fira Code",
-	"font_size": 12,
-	"font_style": "",
-	"foreground_color": "$scheme_foreground_color",
-	"grid_layout_border_color": "$sidebar_border_color",
-	"grid_layout_border_width": 1,
-	"icon_color":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.7
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.7
-		]
-	],
-	"icon_color_on_hover":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.9
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.9
-		]
-	],
-	"icon_color_on_selected": "$accent_color",
-	"icon_opacity": 0.45,
-	"icon_opacity_on_hover": 0.7,
-	"icon_opacity_on_selected": 0.9,
-	"input_background_color": "$background_color",
-	"input_border_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.05
-		],
-		[
-			"shade",
-			"$background_color",
-			0.1
-		]
-	],
-	"input_border_radius": "$border_radius",
-	"input_border_width": 1,
-	"input_dropdown_button_icon_color": "$icon_color",
-	"input_dropdown_button_icon_color_on_hover": "$icon_color_on_hover",
-	"input_dropdown_button_icon_opacity": "$icon_opacity",
-	"input_dropdown_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"input_padding": 4,
-	"input_panel_padding": "$panel_padding",
-	"label_font_size": "$font_size",
-	"label_font_style": "$font_style",
-	"label_foreground_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.45
-		],
-		[
-			"shade",
-			"$background_color",
-			0.45
-		]
-	],
-	"label_foreground_color_on_hover":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.9
-		],
-		[
-			"shade",
-			"$background_color",
-			0.9
-		]
-	],
-	"label_foreground_color_on_match": "$accent_color",
-	"label_foreground_color_on_selected": "$label_foreground_color_on_hover",
-	"label_text_shadow_color": "$text_shadow_color",
-	"label_text_shadow_offset": "$text_shadow_offset",
-	"minimap_background_color": "#808080",
-	"minimap_opacity": 0.15,
-	"minimap_opacity_on_hover": 0.25,
-	"output_panel_padding":
-	[
-		0,
-		8
-	],
-	"overlay_background_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.05
-		],
-		[
-			"shade",
-			"$background_color",
-			0.05
-		]
-	],
-	"overlay_border_color": "",
-	"overlay_border_radius": 4,
-	"overlay_border_width": 0,
-	"overlay_input_background_color": "$overlay_background_color",
-	"overlay_input_border_color": "$input_border_color",
-	"overlay_input_border_radius": "$input_border_radius",
-	"overlay_input_border_width": 0,
-	"overlay_input_padding":
-	[
-		16,
-		8
-	],
-	"overlay_input_search_icon_color": "$accent_color",
-	"overlay_padding":
-	[
-		0,
-		6
-	],
-	"overlay_scrollbar_margin":
-	[
-		4,
-		0
-	],
-	"overlay_shadow_opacity": 1.0,
-	"overlay_top_offset": 10,
-	"panel_background_color": "$status_bar_background_color",
-	"panel_border_color": "$status_bar_border_color",
-	"panel_border_width":
-	[
-		0,
-		1,
-		0,
-		0
-	],
-	"panel_close_button_icon_color": "$icon_color",
-	"panel_close_button_icon_color_on_hover": "$icon_color_on_hover",
-	"panel_close_button_icon_opacity": "$icon_opacity",
-	"panel_close_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"panel_grid_inside_spacing": 6,
-	"panel_grid_outside_hspacing": 0,
-	"panel_grid_outside_vspacing": 0,
-	"panel_padding": 4,
-	"panel_text_output_background_color": "$panel_background_color",
-	"popup_background_color": "$background_color",
-	"popup_border_color":
-	[
-		"rgba",
-		128,
-		128,
-		128,
-		0.25
-	],
-	"popup_border_width": 0,
-	"popup_padding": "$popup_border_width",
-	"progress_bar_background_color":
-	[
-		"opacity",
-		"$accent_color",
-		0.05
-	],
-	"progress_gauge_background_color":
-	[
-		"opacity",
-		"$accent_color",
-		1.0
-	],
-	"project_panel_background_color": "$overlay_background_color",
-	"project_panel_input_background_color": "$overlay_input_background_color",
-	"project_panel_input_border_color": "$overlay_input_border_color",
-	"project_panel_input_border_radius": "$overlay_input_border_radius",
-	"project_panel_input_border_width": "$overlay_input_border_width",
-	"project_panel_input_padding": "$overlay_input_padding",
-	"project_panel_input_search_icon_color": "$overlay_input_search_icon_color",
-	"project_panel_padding":
-	[
-		0,
-		6
-	],
-	"project_panel_scrollbar_background_color": "$project_panel_background_color",
-	"project_panel_scrollbar_margin":
-	[
-		4,
-		0,
-		4,
-		4
-	],
-	"quick_panel_background_color": "$overlay_background_color",
-	"quick_panel_label_font_size":
-	[
-		"add",
-		"$font_size",
-		1
-	],
-	"quick_panel_label_font_style": "$font_style",
-	"quick_panel_label_foreground_color": "$label_foreground_color",
-	"quick_panel_label_foreground_color_on_match": "$label_foreground_color_on_match",
-	"quick_panel_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
-	"quick_panel_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
-	"quick_panel_path_label_font_size":
-	[
-		"subtract",
-		"$font_size",
-		1
-	],
-	"quick_panel_path_label_font_style": "$font_style",
-	"quick_panel_path_label_foreground_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.3
-		],
-		[
-			"shade",
-			"$background_color",
-			0.3
-		]
-	],
-	"quick_panel_path_label_foreground_color_on_match": "$label_foreground_color_on_match",
-	"quick_panel_path_label_foreground_color_on_selected":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.45
-		],
-		[
-			"shade",
-			"$background_color",
-			0.45
-		]
-	],
-	"quick_panel_path_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
-	"quick_panel_row_background_color": "",
-	"quick_panel_row_background_color_on_hover": "",
-	"quick_panel_row_background_color_on_selected":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"quick_panel_row_padding":
-	[
-		17,
-		9
-	],
-	"scrollbar_flavor": "square",
-	"scrollbar_margin": 0,
-	"scrollbar_puck_background_color":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.1
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.1
-		]
-	],
-	"scrollbar_track_background_color":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"scrollbar_width": 10,
-	"show_overlay_input_search_icon": true,
-	"show_panel_close_button": false,
-	"show_project_panel_input_search_icon": "$show_overlay_input_search_icon",
-	"show_sidebar_disclosure_button": true,
-	"show_sidebar_file_icons": true,
-	"show_sidebar_folder_icon": true,
-	"show_sidebar_tree_spacer_rows": true,
-	"show_status_panel_button": false,
-	"show_tab_dropdown_button": true,
-	"show_tab_scroll_buttons": false,
-	"sidebar_background_color": "$status_bar_background_color",
-	"sidebar_border_color": "$status_bar_border_color",
-	"sidebar_border_width":
-	[
-		0,
-		0,
-		1,
-		0
-	],
-	"sidebar_close_button_always_visible": "$tab_close_button_always_visible",
-	"sidebar_close_button_icon_color": "$tab_close_button_icon_color",
-	"sidebar_close_button_icon_color_on_dirty": "$tab_close_button_icon_color_on_dirty",
-	"sidebar_close_button_icon_color_on_hover": "$tab_close_button_icon_color_on_hover",
-	"sidebar_close_button_icon_color_on_selected": "$tab_close_button_icon_color_on_selected",
-	"sidebar_close_button_icon_color_on_selected_dirty": "$tab_close_button_icon_color_on_selected_dirty",
-	"sidebar_close_button_icon_color_on_selected_hover": "$tab_close_button_icon_color_on_selected_hover",
-	"sidebar_close_button_icon_opacity": "$tab_close_button_icon_opacity",
-	"sidebar_close_button_icon_opacity_on_hover": "$tab_close_button_icon_opacity_on_hover",
-	"sidebar_close_button_icon_opacity_on_selected": "$tab_close_button_icon_opacity_on_selected",
-	"sidebar_close_button_icon_opacity_on_selected_hover": "$tab_close_button_icon_opacity_on_selected_hover",
-	"sidebar_disclosure_button_icon_color": "$icon_color",
-	"sidebar_disclosure_button_icon_color_on_expanded": "$icon_color",
-	"sidebar_disclosure_button_icon_color_on_expanded_hover": "$icon_color_on_hover",
-	"sidebar_disclosure_button_icon_color_on_hover": "$icon_color_on_hover",
-	"sidebar_disclosure_button_icon_color_on_selected": "$icon_color_on_hover",
-	"sidebar_disclosure_button_icon_opacity": "$icon_opacity",
-	"sidebar_disclosure_button_icon_opacity_on_expanded": "$icon_opacity",
-	"sidebar_disclosure_button_icon_opacity_on_expanded_hover": "$icon_opacity_on_hover",
-	"sidebar_disclosure_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"sidebar_disclosure_button_icon_opacity_on_selected": "$icon_opacity_on_hover",
-	"sidebar_file_icon_color": "$icon_color",
-	"sidebar_file_icon_color_on_hover": "$icon_color_on_hover",
-	"sidebar_file_icon_color_on_selected": "$icon_color_on_selected",
-	"sidebar_file_icon_margin_right": "$sidebar_folder_icon_margin_right",
-	"sidebar_file_icon_opacity": "$icon_opacity",
-	"sidebar_file_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"sidebar_file_icon_opacity_on_selected": "$icon_opacity_on_selected",
-	"sidebar_folder_icon_color": "$icon_color",
-	"sidebar_folder_icon_color_on_expanded": "$accent_color",
-	"sidebar_folder_icon_color_on_expanded_hover": "$accent_color",
-	"sidebar_folder_icon_color_on_hover": "$icon_color_on_hover",
-	"sidebar_folder_icon_color_on_selected": "$accent_color",
-	"sidebar_folder_icon_margin_right": 1,
-	"sidebar_folder_icon_opacity": "$icon_opacity",
-	"sidebar_folder_icon_opacity_on_expanded": "$icon_opacity_on_selected",
-	"sidebar_folder_icon_opacity_on_expanded_hover": "$icon_opacity_on_selected",
-	"sidebar_folder_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"sidebar_folder_icon_opacity_on_selected": "$icon_opacity_on_selected",
-	"sidebar_folder_loading_icon_color": "$sidebar_folder_symlink_icon_color",
-	"sidebar_folder_loading_icon_color_on_hover": "$sidebar_folder_symlink_icon_color_on_hover",
-	"sidebar_folder_loading_icon_color_on_selected": "$sidebar_folder_symlink_icon_color_on_selected",
-	"sidebar_folder_symlink_icon_color":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.75
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.75
-		]
-	],
-	"sidebar_folder_symlink_icon_color_on_hover":
-	[
-		"specify",
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.75
-		],
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.75
-		]
-	],
-	"sidebar_folder_symlink_icon_color_on_selected": "$sidebar_folder_symlink_icon_color_on_hover",
-	"sidebar_heading_font_size":
-	[
-		"subtract",
-		"$font_size",
-		1
-	],
-	"sidebar_heading_font_style": "$font_style",
-	"sidebar_heading_foreground_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.3
-		],
-		[
-			"shade",
-			"$background_color",
-			0.3
-		]
-	],
-	"sidebar_heading_text_shadow_color": "$text_shadow_color",
-	"sidebar_heading_text_shadow_offset": "$text_shadow_offset",
-	"sidebar_label_font_size": "$font_size",
-	"sidebar_label_font_style": "$font_style",
-	"sidebar_label_foreground_color": "$label_foreground_color",
-	"sidebar_label_foreground_color_on_expanded": "$label_foreground_color_on_selected",
-	"sidebar_label_foreground_color_on_hover": "$label_foreground_color_on_hover",
-	"sidebar_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
-	"sidebar_label_text_shadow_color": "$text_shadow_color",
-	"sidebar_label_text_shadow_offset": "$text_shadow_offset",
-	"sidebar_padding":
-	[
-		0,
-		0,
-		1,
-		0
-	],
-	"sidebar_scroll_area_padding":
-	[
-		0,
-		8
-	],
-	"sidebar_scrollbar_margin": "$scrollbar_margin",
-	"sidebar_tree_indent": 12,
-	"sidebar_tree_indent_offset": 14,
-	"sidebar_tree_indent_top_level": false,
-	"sidebar_tree_row_background_color_on_hover": "",
-	"sidebar_tree_row_background_color_on_selected":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		]
-	],
-	"sidebar_tree_row_line_color_on_hover": "",
-	"sidebar_tree_row_line_color_on_selected": "$accent_color",
-	"sidebar_tree_row_line_opacity_on_hover": 0.0,
-	"sidebar_tree_row_line_opacity_on_selected": 1.0,
-	"sidebar_tree_row_line_width": 0,
-	"sidebar_tree_row_padding":
-	[
-		18,
-		7
-	],
-	"skin":
-	{
-		"id": "origin",
-		"settings":
-		{
-		}
-	},
-	"status_bar_background_color":
-	[
-		"shade",
-		"$background_color",
-		0.05
-	],
-	"status_bar_border_color":
-	[
-		"shade",
-		"$background_color",
-		0.1
-	],
-	"status_bar_border_width":
-	[
-		0,
-		1,
-		0,
-		0
-	],
-	"status_bar_border_width_on_visible_panel": 0,
-	"status_bar_padding":
-	[
-		12,
-		8,
-		4,
-		7
-	],
-	"status_button_border_color": "$status_bar_border_color",
-	"status_button_border_width": 0,
-	"status_button_min_size":
-	[
-		80,
-		0
-	],
-	"status_button_padding":
-	[
-		12,
-		0
-	],
-	"status_container_padding":
-	[
-		8,
-		0
-	],
-	"status_label_font_size": "$label_font_size",
-	"status_label_font_style": "$label_font_style",
-	"status_label_foreground_color": "$label_foreground_color",
-	"status_label_foreground_color_on_hover": "$label_foreground_color_on_hover",
-	"status_label_text_shadow_color": "$label_text_shadow_color",
-	"status_label_text_shadow_offset": "$label_text_shadow_offset",
-	"status_panel_button_icon_color": "$icon_color",
-	"status_panel_button_icon_color_on_hover": "$icon_color_on_hover",
-	"status_panel_button_icon_opacity": "$icon_opacity",
-	"status_panel_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"tab_background_color": "$background_color",
-	"tab_background_color_on_hover": "",
-	"tab_background_color_on_selected": "",
-	"tab_border_color": "$status_bar_border_color",
-	"tab_border_color_on_hover": "",
-	"tab_border_color_on_selected": "",
-	"tab_border_radius": 0,
-	"tab_border_width": 1,
-	"tab_close_button_always_visible": false,
-	"tab_close_button_icon_color": "$icon_color",
-	"tab_close_button_icon_color_on_dirty": "",
-	"tab_close_button_icon_color_on_hover": "$icon_color_on_hover",
-	"tab_close_button_icon_color_on_selected": "$tab_close_button_icon_color",
-	"tab_close_button_icon_color_on_selected_dirty": "$accent_color",
-	"tab_close_button_icon_color_on_selected_hover": "$tab_close_button_icon_color_on_hover",
-	"tab_close_button_icon_opacity": "$icon_opacity",
-	"tab_close_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"tab_close_button_icon_opacity_on_selected": "$icon_opacity_on_selected",
-	"tab_close_button_icon_opacity_on_selected_hover": "$icon_opacity_on_selected",
-	"tab_dropdown_button_icon_color": "$icon_color",
-	"tab_dropdown_button_icon_color_on_hover": "$icon_color_on_hover",
-	"tab_dropdown_button_icon_opacity": "$icon_opacity",
-	"tab_dropdown_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"tab_flavor": "default",
-	"tab_font_size": "$font_size",
-	"tab_font_style": "$font_style",
-	"tab_foreground_color": "$label_foreground_color",
-	"tab_foreground_color_on_hover": "",
-	"tab_foreground_color_on_selected": "$label_foreground_color_on_selected",
-	"tab_height": 32,
-	"tab_line_color_on_dirty": "",
-	"tab_line_color_on_dirty_hover": "$tab_line_color_on_hover",
-	"tab_line_color_on_hover":
-	[
-		"specify",
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.2
-		],
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.2
-		]
-	],
-	"tab_line_color_on_selected": "$accent_color",
-	"tab_line_color_on_selected_dirty": "$accent_color",
-	"tab_line_color_on_selected_dirty_hover": "$accent_color",
-	"tab_line_color_on_selected_hover": "$accent_color",
-	"tab_line_flavor": "underlined",
-	"tab_line_width": 1,
-	"tab_min_width": 64,
-	"tab_overlap": 0,
-	"tab_padding":
-	[
-		6,
-		8,
-		6,
-		8
-	],
-	"tab_scroll_button_icon_color": "$icon_color",
-	"tab_scroll_button_icon_color_on_hover": "$icon_color_on_hover",
-	"tab_scroll_button_icon_opacity": "$icon_opacity",
-	"tab_scroll_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"tab_text_shadow_color": "$text_shadow_color",
-	"tab_text_shadow_offset": "$text_shadow_offset",
-	"tab_width": 128,
-	"tabset_background_color": "$background_color",
-	"tabset_line_background_color": "$background_color",
-	"tabset_line_border_color": "$tab_border_color_on_selected",
-	"tabset_line_border_width": "$tab_border_width",
-	"tabset_line_height": 6,
-	"tabset_padding":
-	[
-		12,
-		0,
-		0,
-		0
-	],
-	"text_shadow_color":
-	[
-		"specify",
-		[
-			"rgba",
-			0,
-			0,
-			0,
-			0.05
-		],
-		[
-			"rgba",
-			255,
-			255,
-			255,
-			0.05
-		]
-	],
-	"text_shadow_offset":
-	[
-		0,
-		1
-	],
-	"title_bar_background_color": "$sidebar_border_color",
-	"title_bar_foreground_color":
-	[
-		"specify",
-		[
-			"tint",
-			"$background_color",
-			0.65
-		],
-		[
-			"shade",
-			"$background_color",
-			0.65
-		]
-	],
-	"toggle_button_background_color": "",
-	"toggle_button_background_color_on_hover": "",
-	"toggle_button_background_color_on_selected": "",
-	"toggle_button_border_color": "",
-	"toggle_button_border_color_on_hover": "",
-	"toggle_button_border_color_on_selected": "",
-	"toggle_button_border_radius": "$button_border_radius",
-	"toggle_button_border_width": 0,
-	"toggle_button_group_spacing": 6,
-	"toggle_button_icon_color": "$icon_color",
-	"toggle_button_icon_color_on_hover": "$icon_color_on_hover",
-	"toggle_button_icon_color_on_selected": "$icon_color_on_selected",
-	"toggle_button_icon_opacity": "$icon_opacity",
-	"toggle_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
-	"toggle_button_icon_opacity_on_selected": "$icon_opacity_on_selected",
-	"toggle_button_padding": 8,
-	"tool_tip_background_color":
-	[
-		"mix",
-		"$background_color",
-		"#808080",
-		0.1
-	],
-	"tool_tip_border_color":
-	[
-		"mix",
-		"$background_color",
-		"#808080",
-		0.2
-	],
-	"tool_tip_border_width": 1,
-	"tool_tip_label_font_size":
-	[
-		"subtract",
-		"$font_size",
-		1
-	],
-	"tool_tip_label_font_style": "$font_style",
-	"tool_tip_label_foreground_color":
-	[
-		"mix",
-		"$foreground_color",
-		"#808080",
-		0.95
-	],
-	"tool_tip_label_text_shadow_color": "",
-	"tool_tip_label_text_shadow_offset":
-	[
-	],
-	"tool_tip_padding":
-	[
-		8,
-		5
-	]
+  "accent_color": "#5882f5",
+  "animation_interpolation": "smoothstep",
+  "animation_speed": 4.5,
+  "auto_complete_background_color": [
+    "specify",
+    ["tint", "$view_background_color", 0.05],
+    ["shade", "$view_background_color", 0.05]
+  ],
+  "auto_complete_label_foreground_color": ["opacity", "#808080", 0.45],
+  "auto_complete_label_foreground_color_on_match": "$label_foreground_color_on_match",
+  "auto_complete_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
+  "auto_complete_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
+  "auto_complete_row_background_color": "",
+  "auto_complete_row_background_color_on_hover": "",
+  "auto_complete_row_background_color_on_selected": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.05],
+    ["rgba", 0, 0, 0, 0.05]
+  ],
+  "auto_complete_row_padding": [9, 6],
+  "auto_complete_scrollbar_background_color": "$auto_complete_background_color",
+  "auto_complete_scrollbar_margin": "$scrollbar_margin",
+  "background_color": "$scheme_background_color",
+  "border_radius": 2,
+  "button_background_color": ["specify", ["rgba", 255, 255, 255, 0.05], ["rgba", 0, 0, 0, 0.05]],
+  "button_background_color_on_hover": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.05],
+    ["rgba", 0, 0, 0, 0.05]
+  ],
+  "button_background_color_on_pressed": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.025],
+    ["rgba", 0, 0, 0, 0.025]
+  ],
+  "button_border_color": "",
+  "button_border_color_on_hover": "$button_border_color",
+  "button_border_color_on_pressed": "$button_border_color",
+  "button_border_radius": "$border_radius",
+  "button_border_width": 0,
+  "button_font_size": "$font_size",
+  "button_font_style": "$font_style",
+  "button_foreground_color": "$label_foreground_color",
+  "button_foreground_color_on_hover": "$label_foreground_color_on_hover",
+  "button_min_size": [80, 0],
+  "button_padding": 8,
+  "button_text_shadow_color": "$text_shadow_color",
+  "button_text_shadow_offset": "$text_shadow_offset",
+  "console_panel_padding": "$panel_padding",
+  "console_panel_scrollbar_margin": [4, 0, 0, 0],
+  "dialog_background_color": "$panel_background_color",
+  "dialog_padding": "$panel_padding",
+  "disable_overlay_top_radius": true,
+  "enable_title_bar_styling": true,
+  "find_in_files_panel_padding": [6, 12, 12, 11],
+  "find_n_replace_panel_padding": [6, 12, 6, 11],
+  "fold_button_icon_color": "$icon_color",
+  "fold_button_icon_color_on_hover": "$icon_color_on_hover",
+  "fold_button_icon_opacity": "$icon_opacity",
+  "fold_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "font_face": "Fira Code",
+  "font_size": 12,
+  "font_style": "",
+  "foreground_color": "$scheme_foreground_color",
+  "grid_layout_border_color": "$sidebar_border_color",
+  "grid_layout_border_width": 1,
+  "icon_color": ["specify", ["rgba", 255, 255, 255, 0.7], ["rgba", 0, 0, 0, 0.7]],
+  "icon_color_on_hover": ["specify", ["rgba", 255, 255, 255, 0.9], ["rgba", 0, 0, 0, 0.9]],
+  "icon_color_on_selected": "$accent_color",
+  "icon_opacity": 0.45,
+  "icon_opacity_on_hover": 0.7,
+  "icon_opacity_on_selected": 0.9,
+  "input_background_color": "$background_color",
+  "input_border_color": [
+    "specify",
+    ["tint", "$background_color", 0.05],
+    ["shade", "$background_color", 0.1]
+  ],
+  "input_border_radius": "$border_radius",
+  "input_border_width": 1,
+  "input_dropdown_button_icon_color": "$icon_color",
+  "input_dropdown_button_icon_color_on_hover": "$icon_color_on_hover",
+  "input_dropdown_button_icon_opacity": "$icon_opacity",
+  "input_dropdown_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "input_padding": 4,
+  "input_panel_padding": "$panel_padding",
+  "label_font_size": "$font_size",
+  "label_font_style": "$font_style",
+  "label_foreground_color": [
+    "specify",
+    ["tint", "$background_color", 0.45],
+    ["shade", "$background_color", 0.45]
+  ],
+  "label_foreground_color_on_hover": [
+    "specify",
+    ["tint", "$background_color", 0.9],
+    ["shade", "$background_color", 0.9]
+  ],
+  "label_foreground_color_on_match": "$accent_color",
+  "label_foreground_color_on_selected": "$label_foreground_color_on_hover",
+  "label_text_shadow_color": "$text_shadow_color",
+  "label_text_shadow_offset": "$text_shadow_offset",
+  "minimap_background_color": "#808080",
+  "minimap_opacity": 0.15,
+  "minimap_opacity_on_hover": 0.25,
+  "output_panel_padding": [0, 8],
+  "overlay_background_color": [
+    "specify",
+    ["tint", "$background_color", 0.05],
+    ["shade", "$background_color", 0.05]
+  ],
+  "overlay_border_color": "",
+  "overlay_border_radius": 4,
+  "overlay_border_width": 0,
+  "overlay_input_background_color": "$overlay_background_color",
+  "overlay_input_border_color": "$input_border_color",
+  "overlay_input_border_radius": "$input_border_radius",
+  "overlay_input_border_width": 0,
+  "overlay_input_padding": [16, 8],
+  "overlay_input_search_icon_color": "$accent_color",
+  "overlay_padding": [0, 6],
+  "overlay_scrollbar_margin": [4, 0],
+  "overlay_shadow_opacity": 1.0,
+  "overlay_top_offset": 10,
+  "panel_background_color": "$status_bar_background_color",
+  "panel_border_color": "$status_bar_border_color",
+  "panel_border_width": [0, 1, 0, 0],
+  "panel_close_button_icon_color": "$icon_color",
+  "panel_close_button_icon_color_on_hover": "$icon_color_on_hover",
+  "panel_close_button_icon_opacity": "$icon_opacity",
+  "panel_close_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "panel_grid_inside_spacing": 6,
+  "panel_grid_outside_hspacing": 0,
+  "panel_grid_outside_vspacing": 0,
+  "panel_padding": 4,
+  "panel_text_output_background_color": "$panel_background_color",
+  "popup_background_color": "$background_color",
+  "popup_border_color": ["rgba", 128, 128, 128, 0.25],
+  "popup_border_width": 0,
+  "popup_padding": "$popup_border_width",
+  "progress_bar_background_color": ["opacity", "$accent_color", 0.05],
+  "progress_gauge_background_color": ["opacity", "$accent_color", 1.0],
+  "project_panel_background_color": "$overlay_background_color",
+  "project_panel_input_background_color": "$overlay_input_background_color",
+  "project_panel_input_border_color": "$overlay_input_border_color",
+  "project_panel_input_border_radius": "$overlay_input_border_radius",
+  "project_panel_input_border_width": "$overlay_input_border_width",
+  "project_panel_input_padding": "$overlay_input_padding",
+  "project_panel_input_search_icon_color": "$overlay_input_search_icon_color",
+  "project_panel_padding": [0, 6],
+  "project_panel_scrollbar_background_color": "$project_panel_background_color",
+  "project_panel_scrollbar_margin": [4, 0, 4, 4],
+  "quick_panel_background_color": "$overlay_background_color",
+  "quick_panel_label_font_size": ["add", "$font_size", 1],
+  "quick_panel_label_font_style": "$font_style",
+  "quick_panel_label_foreground_color": "$label_foreground_color",
+  "quick_panel_label_foreground_color_on_match": "$label_foreground_color_on_match",
+  "quick_panel_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
+  "quick_panel_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
+  "quick_panel_path_label_font_size": ["subtract", "$font_size", 1],
+  "quick_panel_path_label_font_style": "$font_style",
+  "quick_panel_path_label_foreground_color": [
+    "specify",
+    ["tint", "$background_color", 0.3],
+    ["shade", "$background_color", 0.3]
+  ],
+  "quick_panel_path_label_foreground_color_on_match": "$label_foreground_color_on_match",
+  "quick_panel_path_label_foreground_color_on_selected": [
+    "specify",
+    ["tint", "$background_color", 0.45],
+    ["shade", "$background_color", 0.45]
+  ],
+  "quick_panel_path_label_foreground_color_on_selected_match": "$label_foreground_color_on_match",
+  "quick_panel_row_background_color": "",
+  "quick_panel_row_background_color_on_hover": "",
+  "quick_panel_row_background_color_on_selected": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.05],
+    ["rgba", 0, 0, 0, 0.05]
+  ],
+  "quick_panel_row_padding": [17, 9],
+  "scrollbar_flavor": "square",
+  "scrollbar_margin": 0,
+  "scrollbar_puck_background_color": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.1],
+    ["rgba", 0, 0, 0, 0.1]
+  ],
+  "scrollbar_track_background_color": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.05],
+    ["rgba", 0, 0, 0, 0.05]
+  ],
+  "scrollbar_width": 10,
+  "show_overlay_input_search_icon": true,
+  "show_panel_close_button": false,
+  "show_project_panel_input_search_icon": "$show_overlay_input_search_icon",
+  "show_sidebar_disclosure_button": true,
+  "show_sidebar_file_icons": true,
+  "show_sidebar_folder_icon": true,
+  "show_sidebar_tree_spacer_rows": false,
+  "show_status_panel_button": false,
+  "show_tab_dropdown_button": true,
+  "show_tab_scroll_buttons": false,
+  "sidebar_background_color": "$status_bar_background_color",
+  "sidebar_border_color": "$status_bar_border_color",
+  "sidebar_border_width": [0, 0, 1, 0],
+  "sidebar_close_button_always_visible": "$tab_close_button_always_visible",
+  "sidebar_close_button_icon_color": "$tab_close_button_icon_color",
+  "sidebar_close_button_icon_color_on_dirty": "$tab_close_button_icon_color_on_dirty",
+  "sidebar_close_button_icon_color_on_hover": "$tab_close_button_icon_color_on_hover",
+  "sidebar_close_button_icon_color_on_selected": "$tab_close_button_icon_color_on_selected",
+  "sidebar_close_button_icon_color_on_selected_dirty":
+    "$tab_close_button_icon_color_on_selected_dirty",
+  "sidebar_close_button_icon_color_on_selected_hover":
+    "$tab_close_button_icon_color_on_selected_hover",
+  "sidebar_close_button_icon_opacity": "$tab_close_button_icon_opacity",
+  "sidebar_close_button_icon_opacity_on_hover": "$tab_close_button_icon_opacity_on_hover",
+  "sidebar_close_button_icon_opacity_on_selected": "$tab_close_button_icon_opacity_on_selected",
+  "sidebar_close_button_icon_opacity_on_selected_hover":
+    "$tab_close_button_icon_opacity_on_selected_hover",
+  "sidebar_disclosure_button_icon_color": "$icon_color",
+  "sidebar_disclosure_button_icon_color_on_expanded": "$icon_color",
+  "sidebar_disclosure_button_icon_color_on_expanded_hover": "$icon_color_on_hover",
+  "sidebar_disclosure_button_icon_color_on_hover": "$icon_color_on_hover",
+  "sidebar_disclosure_button_icon_color_on_selected": "$icon_color_on_hover",
+  "sidebar_disclosure_button_icon_opacity": "$icon_opacity",
+  "sidebar_disclosure_button_icon_opacity_on_expanded": "$icon_opacity",
+  "sidebar_disclosure_button_icon_opacity_on_expanded_hover": "$icon_opacity_on_hover",
+  "sidebar_disclosure_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "sidebar_disclosure_button_icon_opacity_on_selected": "$icon_opacity_on_hover",
+  "sidebar_file_icon_color": "$icon_color",
+  "sidebar_file_icon_color_on_hover": "$icon_color_on_hover",
+  "sidebar_file_icon_color_on_selected": "$icon_color_on_selected",
+  "sidebar_file_icon_margin_right": "$sidebar_folder_icon_margin_right",
+  "sidebar_file_icon_opacity": "$icon_opacity",
+  "sidebar_file_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "sidebar_file_icon_opacity_on_selected": "$icon_opacity_on_selected",
+  "sidebar_folder_icon_color": "$icon_color",
+  "sidebar_folder_icon_color_on_expanded": "$accent_color",
+  "sidebar_folder_icon_color_on_expanded_hover": "$accent_color",
+  "sidebar_folder_icon_color_on_hover": "$icon_color_on_hover",
+  "sidebar_folder_icon_color_on_selected": "$accent_color",
+  "sidebar_folder_icon_margin_right": 1,
+  "sidebar_folder_icon_opacity": "$icon_opacity",
+  "sidebar_folder_icon_opacity_on_expanded": "$icon_opacity_on_selected",
+  "sidebar_folder_icon_opacity_on_expanded_hover": "$icon_opacity_on_selected",
+  "sidebar_folder_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "sidebar_folder_icon_opacity_on_selected": "$icon_opacity_on_selected",
+  "sidebar_folder_loading_icon_color": "$sidebar_folder_symlink_icon_color",
+  "sidebar_folder_loading_icon_color_on_hover": "$sidebar_folder_symlink_icon_color_on_hover",
+  "sidebar_folder_loading_icon_color_on_selected": "$sidebar_folder_symlink_icon_color_on_selected",
+  "sidebar_folder_symlink_icon_color": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.75],
+    ["rgba", 0, 0, 0, 0.75]
+  ],
+  "sidebar_folder_symlink_icon_color_on_hover": [
+    "specify",
+    ["rgba", 0, 0, 0, 0.75],
+    ["rgba", 255, 255, 255, 0.75]
+  ],
+  "sidebar_folder_symlink_icon_color_on_selected": "$sidebar_folder_symlink_icon_color_on_hover",
+  "sidebar_heading_font_size": ["subtract", "$font_size", 1],
+  "sidebar_heading_font_style": "$font_style",
+  "sidebar_heading_foreground_color": [
+    "specify",
+    ["tint", "$background_color", 0.3],
+    ["shade", "$background_color", 0.3]
+  ],
+  "sidebar_heading_text_shadow_color": "$text_shadow_color",
+  "sidebar_heading_text_shadow_offset": "$text_shadow_offset",
+  "sidebar_label_font_size": "$font_size",
+  "sidebar_label_font_style": "$font_style",
+  "sidebar_label_foreground_color": "$label_foreground_color",
+  "sidebar_label_foreground_color_on_expanded": "$label_foreground_color_on_selected",
+  "sidebar_label_foreground_color_on_hover": "$label_foreground_color_on_hover",
+  "sidebar_label_foreground_color_on_selected": "$label_foreground_color_on_selected",
+  "sidebar_label_text_shadow_color": "$text_shadow_color",
+  "sidebar_label_text_shadow_offset": "$text_shadow_offset",
+  "sidebar_padding": [0, 0, 1, 0],
+  "sidebar_scroll_area_padding": [0, 8],
+  "sidebar_scrollbar_margin": "$scrollbar_margin",
+  "sidebar_tree_indent": 12,
+  "sidebar_tree_indent_offset": 14,
+  "sidebar_tree_indent_top_level": false,
+  "sidebar_tree_row_background_color_on_hover": "",
+  "sidebar_tree_row_background_color_on_selected": [
+    "specify",
+    ["rgba", 255, 255, 255, 0.05],
+    ["rgba", 0, 0, 0, 0.05]
+  ],
+  "sidebar_tree_row_line_color_on_hover": "",
+  "sidebar_tree_row_line_color_on_selected": "$accent_color",
+  "sidebar_tree_row_line_opacity_on_hover": 0.0,
+  "sidebar_tree_row_line_opacity_on_selected": 1.0,
+  "sidebar_tree_row_line_width": 0,
+  "sidebar_tree_row_padding": [18, 7],
+  "skin": {
+    "id": "origin",
+    "settings": {}
+  },
+  "status_bar_background_color": ["shade", "$background_color", 0.05],
+  "status_bar_border_color": ["shade", "$background_color", 0.1],
+  "status_bar_border_width": [0, 1, 0, 0],
+  "status_bar_border_width_on_visible_panel": 0,
+  "status_bar_padding": [12, 8, 4, 7],
+  "status_button_border_color": "$status_bar_border_color",
+  "status_button_border_width": 0,
+  "status_button_min_size": [80, 0],
+  "status_button_padding": [12, 0],
+  "status_container_padding": [8, 0],
+  "status_label_font_size": "$label_font_size",
+  "status_label_font_style": "$label_font_style",
+  "status_label_foreground_color": "$label_foreground_color",
+  "status_label_foreground_color_on_hover": "$label_foreground_color_on_hover",
+  "status_label_text_shadow_color": "$label_text_shadow_color",
+  "status_label_text_shadow_offset": "$label_text_shadow_offset",
+  "status_panel_button_icon_color": "$icon_color",
+  "status_panel_button_icon_color_on_hover": "$icon_color_on_hover",
+  "status_panel_button_icon_opacity": "$icon_opacity",
+  "status_panel_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "tab_background_color": "$background_color",
+  "tab_background_color_on_hover": "",
+  "tab_background_color_on_selected": "",
+  "tab_border_color": "$status_bar_border_color",
+  "tab_border_color_on_hover": "",
+  "tab_border_color_on_selected": "",
+  "tab_border_radius": 0,
+  "tab_border_width": 1,
+  "tab_close_button_always_visible": false,
+  "tab_close_button_icon_color": "$icon_color",
+  "tab_close_button_icon_color_on_dirty": "",
+  "tab_close_button_icon_color_on_hover": "$icon_color_on_hover",
+  "tab_close_button_icon_color_on_selected": "$tab_close_button_icon_color",
+  "tab_close_button_icon_color_on_selected_dirty": "$accent_color",
+  "tab_close_button_icon_color_on_selected_hover": "$tab_close_button_icon_color_on_hover",
+  "tab_close_button_icon_opacity": "$icon_opacity",
+  "tab_close_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "tab_close_button_icon_opacity_on_selected": "$icon_opacity_on_selected",
+  "tab_close_button_icon_opacity_on_selected_hover": "$icon_opacity_on_selected",
+  "tab_dropdown_button_icon_color": "$icon_color",
+  "tab_dropdown_button_icon_color_on_hover": "$icon_color_on_hover",
+  "tab_dropdown_button_icon_opacity": "$icon_opacity",
+  "tab_dropdown_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "tab_flavor": "default",
+  "tab_font_size": "$font_size",
+  "tab_font_style": "$font_style",
+  "tab_foreground_color": "$label_foreground_color",
+  "tab_foreground_color_on_hover": "",
+  "tab_foreground_color_on_selected": "$label_foreground_color_on_selected",
+  "tab_height": 32,
+  "tab_line_color_on_dirty": "",
+  "tab_line_color_on_dirty_hover": "$tab_line_color_on_hover",
+  "tab_line_color_on_hover": ["specify", ["rgba", 255, 255, 255, 0.2], ["rgba", 0, 0, 0, 0.2]],
+  "tab_line_color_on_selected": "$accent_color",
+  "tab_line_color_on_selected_dirty": "$accent_color",
+  "tab_line_color_on_selected_dirty_hover": "$accent_color",
+  "tab_line_color_on_selected_hover": "$accent_color",
+  "tab_line_flavor": "underlined",
+  "tab_line_width": 1,
+  "tab_min_width": 64,
+  "tab_overlap": 0,
+  "tab_padding": [6, 8, 6, 8],
+  "tab_scroll_button_icon_color": "$icon_color",
+  "tab_scroll_button_icon_color_on_hover": "$icon_color_on_hover",
+  "tab_scroll_button_icon_opacity": "$icon_opacity",
+  "tab_scroll_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "tab_text_shadow_color": "$text_shadow_color",
+  "tab_text_shadow_offset": "$text_shadow_offset",
+  "tab_width": 128,
+  "tabset_background_color": "$background_color",
+  "tabset_line_background_color": "$background_color",
+  "tabset_line_border_color": "$tab_border_color_on_selected",
+  "tabset_line_border_width": "$tab_border_width",
+  "tabset_line_height": 6,
+  "tabset_padding": [12, 0, 0, 0],
+  "text_shadow_color": ["specify", ["rgba", 0, 0, 0, 0.05], ["rgba", 255, 255, 255, 0.05]],
+  "text_shadow_offset": [0, 1],
+  "title_bar_background_color": "$sidebar_border_color",
+  "title_bar_foreground_color": [
+    "specify",
+    ["tint", "$background_color", 0.65],
+    ["shade", "$background_color", 0.65]
+  ],
+  "toggle_button_background_color": "",
+  "toggle_button_background_color_on_hover": "",
+  "toggle_button_background_color_on_selected": "",
+  "toggle_button_border_color": "",
+  "toggle_button_border_color_on_hover": "",
+  "toggle_button_border_color_on_selected": "",
+  "toggle_button_border_radius": "$button_border_radius",
+  "toggle_button_border_width": 0,
+  "toggle_button_group_spacing": 6,
+  "toggle_button_icon_color": "$icon_color",
+  "toggle_button_icon_color_on_hover": "$icon_color_on_hover",
+  "toggle_button_icon_color_on_selected": "$icon_color_on_selected",
+  "toggle_button_icon_opacity": "$icon_opacity",
+  "toggle_button_icon_opacity_on_hover": "$icon_opacity_on_hover",
+  "toggle_button_icon_opacity_on_selected": "$icon_opacity_on_selected",
+  "toggle_button_padding": 8,
+  "tool_tip_background_color": ["mix", "$background_color", "#808080", 0.1],
+  "tool_tip_border_color": ["mix", "$background_color", "#808080", 0.2],
+  "tool_tip_border_width": 1,
+  "tool_tip_label_font_size": ["subtract", "$font_size", 1],
+  "tool_tip_label_font_style": "$font_style",
+  "tool_tip_label_foreground_color": ["mix", "$foreground_color", "#808080", 0.95],
+  "tool_tip_label_text_shadow_color": "",
+  "tool_tip_label_text_shadow_offset": [],
+  "tool_tip_padding": [8, 5]
 }
