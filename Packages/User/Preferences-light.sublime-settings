@@ -86,7 +86,7 @@
 	"caret_extra_width": 0,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Sixteen (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Eiffel (SL).tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -137,10 +137,10 @@
 		"CVS"
 	],
 	"font_face": "Fira Code",
-  "font_size": 12.5,
 	"font_options":
 	[
 	],
+	"font_size": 12.5,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
